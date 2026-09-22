@@ -1,0 +1,46 @@
+{
+  "feature": "lightbox",
+  "sourceTemplate": "civil-engineer-dwg-fix-structured-footer-gap-50.xml",
+  "source": {
+    "javascriptStartLine": 28894,
+    "javascriptEndLine": 29228,
+    "cssSelectorPrefix": "civilengineer-lb"
+  },
+  "status": "source-extracted-and-production-build-validated",
+  "dependencies": [
+    "Article image markup inside .post-body-artikel or #body-post-it",
+    "Lightbox CSS selectors beginning with .civilengineer-lb",
+    "Optional civilEngineerSetting.imageCredit value"
+  ],
+  "preservedInlineRequirements": [
+    "Article markup and Blogger-generated image URLs remain in the template.",
+    "The optional image-credit setting remains configured inline.",
+    "The CDN script must load after the article markup is available or use its existing DOMContentLoaded fallback."
+  ],
+  "extractionPlan": {
+    "sourcePath": "cdn/civil-engineer/src/js/lightbox.js",
+    "productionPath": "cdn/civil-engineer/dist/js/lightbox.min.js",
+    "templateChanged": false,
+    "minification": "Completed with Terser 5.51.2 after source extraction and syntax validation"
+  },
+  "artifacts": {
+    "sourceBytes": 12284,
+    "productionBytes": 7789,
+    "productionReductionPercent": 36.59,
+    "sourceSyntax": "passed",
+    "productionSyntax": "passed",
+    "bloggerExpressionScan": "passed"
+  },
+  "validationRequired": [
+    "Node.js syntax check",
+    "Verify no Blogger XML expressions are present in the extracted JavaScript",
+    "Verify all civilengineer-lb CSS selectors remain in the template",
+    "Verify the script still uses DOMContentLoaded fallback",
+    "Browser test on article pages before replacing inline runtime"
+  ],
+  "cdnDecision": {
+    "approved": true,
+    "approvedFor": "isolated source extraction and production build",
+    "productionReplacement": false
+  }
+}
