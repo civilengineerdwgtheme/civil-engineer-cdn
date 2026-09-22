@@ -1,0 +1,28 @@
+{
+  "feature": "reading-time",
+  "sourceTemplate": "civil-engineer-dwg-fix-structured-footer-gap-50.xml",
+  "sourceRange": {
+    "startLine": 26537,
+    "endLine": 27584
+  },
+  "status": "blocked-for-direct-extraction",
+  "reason": [
+    "Reading Time is embedded in a large shared footer runtime rather than an isolated script.",
+    "The runtime also contains unrelated header and page behavior.",
+    "The feature reads window.civilEngineerSetting through shared helper functions.",
+    "The feature exposes and uses global callbacks and DOM selectors.",
+    "Removing only the Reading Time portion could change execution order or break shared dependencies."
+  ],
+  "requiredRefactorBeforeCdn": [
+    "Extract shared configuration access into a stable adapter.",
+    "Define an explicit page-data contract for reading-time markers and article URLs.",
+    "Separate Reading Time functions from the shared footer runtime.",
+    "Preserve the Blogger inline bootstrap and configuration.",
+    "Run syntax, selector, and Blogger runtime tests before replacing inline code."
+  ],
+  "cdnDecision": {
+    "approved": false,
+    "nextSafeCandidate": "A genuinely isolated static utility, after dependency review",
+    "templateChanged": false
+  }
+}
