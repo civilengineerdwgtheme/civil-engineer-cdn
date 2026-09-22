@@ -1,0 +1,549 @@
+{
+    "template":  "civil-engineer-dwg-fix-structured-footer-gap-50.xml",
+    "generatedAt":  "2026-09-22T20:25:50",
+    "status":  "inventory-complete-no-extraction",
+    "totalScripts":  53,
+    "policy":  {
+                   "keepInline":  "inline",
+                   "candidateCdn":  "candidate",
+                   "manualReview":  "review"
+               },
+    "summary":  {
+                    "approvedForCdn":  0,
+                    "requiresInline":  32,
+                    "requiresManualReview":  21,
+                    "nextStep":  "Review one isolated feature before extracting any runtime."
+                },
+    "scripts":  [
+                    {
+                        "index":  1,
+                        "startLine":  7,
+                        "endLine":  240,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  7405
+                    },
+                    {
+                        "index":  2,
+                        "startLine":  803,
+                        "endLine":  818,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  691
+                    },
+                    {
+                        "index":  3,
+                        "startLine":  820,
+                        "endLine":  831,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  277
+                    },
+                    {
+                        "index":  4,
+                        "startLine":  833,
+                        "endLine":  887,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  1865
+                    },
+                    {
+                        "index":  5,
+                        "startLine":  889,
+                        "endLine":  1195,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  10508
+                    },
+                    {
+                        "index":  6,
+                        "startLine":  1202,
+                        "endLine":  1222,
+                        "tag":  "\u003cscript type=\u0027application/ld+json\u0027\u003e",
+                        "classification":  "inline",
+                        "reason":  "Dynamic JSON-LD or Blogger metadata.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  991
+                    },
+                    {
+                        "index":  7,
+                        "startLine":  1380,
+                        "endLine":  1535,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger JSONP callback and page-specific markup.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  8233
+                    },
+                    {
+                        "index":  8,
+                        "startLine":  1537,
+                        "endLine":  1541,
+                        "tag":  "\u003cscript expr:src=\u0027\u0026quot;/feeds/posts/summary/-/\u0026quot; + data:label.name + \u0026quot;?alt=json-in-script\u0026amp;callback=inlineRelatedPosts\u0026amp;max-results=5\u0026quot;\u0027/\u003e",
+                        "classification":  "inline",
+                        "reason":  "External/widget script declaration or Blogger-generated callback.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  154
+                    },
+                    {
+                        "index":  9,
+                        "startLine":  1633,
+                        "endLine":  1656,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  1421
+                    },
+                    {
+                        "index":  10,
+                        "startLine":  1856,
+                        "endLine":  1863,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  582
+                    },
+                    {
+                        "index":  11,
+                        "startLine":  1873,
+                        "endLine":  3386,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  68922
+                    },
+                    {
+                        "index":  12,
+                        "startLine":  3387,
+                        "endLine":  3391,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  116
+                    },
+                    {
+                        "index":  13,
+                        "startLine":  3473,
+                        "endLine":  3502,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  2066
+                    },
+                    {
+                        "index":  14,
+                        "startLine":  3504,
+                        "endLine":  3519,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  599
+                    },
+                    {
+                        "index":  15,
+                        "startLine":  3635,
+                        "endLine":  3816,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  6397
+                    },
+                    {
+                        "index":  16,
+                        "startLine":  3820,
+                        "endLine":  4048,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  12178
+                    },
+                    {
+                        "index":  17,
+                        "startLine":  4288,
+                        "endLine":  4290,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  84
+                    },
+                    {
+                        "index":  18,
+                        "startLine":  4906,
+                        "endLine":  24571,
+                        "tag":  "\u003cscript src=\u0027https://www.gstatic.com/charts/loader.js\u0027/\u003e",
+                        "classification":  "inline",
+                        "reason":  "External/widget script declaration or Blogger-generated callback.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  709490
+                    },
+                    {
+                        "index":  19,
+                        "startLine":  24588,
+                        "endLine":  24614,
+                        "tag":  "\u003cscript type=\u0027application/ld+json\u0027\u003e",
+                        "classification":  "inline",
+                        "reason":  "Dynamic JSON-LD or Blogger metadata.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  1378
+                    },
+                    {
+                        "index":  20,
+                        "startLine":  24938,
+                        "endLine":  24944,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  355
+                    },
+                    {
+                        "index":  21,
+                        "startLine":  24953,
+                        "endLine":  24958,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  269
+                    },
+                    {
+                        "index":  22,
+                        "startLine":  25000,
+                        "endLine":  25006,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  353
+                    },
+                    {
+                        "index":  23,
+                        "startLine":  25104,
+                        "endLine":  25208,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  5024
+                    },
+                    {
+                        "index":  24,
+                        "startLine":  25233,
+                        "endLine":  25251,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  1088
+                    },
+                    {
+                        "index":  25,
+                        "startLine":  25260,
+                        "endLine":  25414,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  4195
+                    },
+                    {
+                        "index":  26,
+                        "startLine":  25645,
+                        "endLine":  25754,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  5623
+                    },
+                    {
+                        "index":  27,
+                        "startLine":  26107,
+                        "endLine":  26129,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  1391
+                    },
+                    {
+                        "index":  28,
+                        "startLine":  26304,
+                        "endLine":  26316,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  742
+                    },
+                    {
+                        "index":  29,
+                        "startLine":  26537,
+                        "endLine":  27584,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  36414
+                    },
+                    {
+                        "index":  30,
+                        "startLine":  27587,
+                        "endLine":  28343,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  27487
+                    },
+                    {
+                        "index":  31,
+                        "startLine":  28347,
+                        "endLine":  28512,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  6430
+                    },
+                    {
+                        "index":  32,
+                        "startLine":  28515,
+                        "endLine":  28685,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  5333
+                    },
+                    {
+                        "index":  33,
+                        "startLine":  28687,
+                        "endLine":  28806,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  4485
+                    },
+                    {
+                        "index":  34,
+                        "startLine":  28808,
+                        "endLine":  28904,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  3178
+                    },
+                    {
+                        "index":  35,
+                        "startLine":  28906,
+                        "endLine":  29231,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  12733
+                    },
+                    {
+                        "index":  36,
+                        "startLine":  29233,
+                        "endLine":  29424,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  7252
+                    },
+                    {
+                        "index":  37,
+                        "startLine":  29426,
+                        "endLine":  29772,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  11784
+                    },
+                    {
+                        "index":  38,
+                        "startLine":  29774,
+                        "endLine":  29895,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  3844
+                    },
+                    {
+                        "index":  39,
+                        "startLine":  29897,
+                        "endLine":  30114,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  7603
+                    },
+                    {
+                        "index":  40,
+                        "startLine":  30116,
+                        "endLine":  30290,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  7811
+                    },
+                    {
+                        "index":  41,
+                        "startLine":  30292,
+                        "endLine":  30665,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  14216
+                    },
+                    {
+                        "index":  42,
+                        "startLine":  30667,
+                        "endLine":  30715,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  1827
+                    },
+                    {
+                        "index":  43,
+                        "startLine":  30717,
+                        "endLine":  30757,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  2092
+                    },
+                    {
+                        "index":  44,
+                        "startLine":  30759,
+                        "endLine":  31147,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  13868
+                    },
+                    {
+                        "index":  45,
+                        "startLine":  31149,
+                        "endLine":  31288,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  5928
+                    },
+                    {
+                        "index":  46,
+                        "startLine":  31290,
+                        "endLine":  31372,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  2904
+                    },
+                    {
+                        "index":  47,
+                        "startLine":  31374,
+                        "endLine":  31642,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  8242
+                    },
+                    {
+                        "index":  48,
+                        "startLine":  31644,
+                        "endLine":  31917,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "inline",
+                        "reason":  "Depends on Blogger data, widget lifecycle, or global configuration.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  7904
+                    },
+                    {
+                        "index":  49,
+                        "startLine":  31919,
+                        "endLine":  31942,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  690
+                    },
+                    {
+                        "index":  50,
+                        "startLine":  31944,
+                        "endLine":  32047,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  2754
+                    },
+                    {
+                        "index":  51,
+                        "startLine":  32049,
+                        "endLine":  32435,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  true,
+                        "bodyBytes":  13036
+                    },
+                    {
+                        "index":  52,
+                        "startLine":  32437,
+                        "endLine":  32519,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  3144
+                    },
+                    {
+                        "index":  53,
+                        "startLine":  32521,
+                        "endLine":  33017,
+                        "tag":  "\u003cscript\u003e",
+                        "classification":  "review",
+                        "reason":  "Potentially extractable, but not approved for CDN until dependencies and Blogger placement are verified.",
+                        "containsBloggerExpressions":  false,
+                        "bodyBytes":  14223
+                    }
+                ]
+}
