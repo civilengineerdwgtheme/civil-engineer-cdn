@@ -1,0 +1,21 @@
+{
+    "status": "two-bundle-candidate-validated",
+    "template": "civil-engineer-dwg-fix-cdn-two-bundle-final-candidate.xml",
+    "cdn":  {
+                "css":  "dist/css/civil-engineer-complete.min.css",
+                "javascript":  "dist/js/bundle/civil-engineer.min.js",
+                "placement":  "immediately before closing body"
+            },
+    "sizes":  {
+                  "templateBytes":  319248,
+                  "cssBytes":  373102,
+                  "javascriptBytes": 111777,
+                  "templateTargetUnder200KB": false,
+                  "templateMinimumBlockers": [
+                    "Blogger b:defaultmarkup blocks must remain in the XML template.",
+                    "Blogger widget markup and dynamic configuration must remain inline.",
+                    "The current template still contains approximately 319 KB after safe extraction."
+                  ]
+    },
+    "caveat": "Two CDN URLs are structurally complete, but the under-200KB target requires a separate template redesign rather than CDN extraction alone."
+}
