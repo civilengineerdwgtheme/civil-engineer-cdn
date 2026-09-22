@@ -1,0 +1,30 @@
+{
+  "name": "civil-engineer-cdn",
+  "status": "structure-only",
+  "sourceTemplate": "civil-engineer-dwg-fix-structured-footer-gap-50.xml",
+  "directories": {
+    "src/js": "Unminified JavaScript extracted from the Blogger template",
+    "src/css": "Unminified CSS extracted from the Blogger template",
+    "src/config": "Runtime configuration and Blogger page-data adapters",
+    "dist/js": "Production JavaScript bundles for CDN publication",
+    "dist/css": "Production CSS bundles for CDN publication",
+    "dist/assets": "Versioned static assets used by CDN bundles",
+    "meta": "Build metadata and release manifests"
+  },
+  "runtimePolicy": {
+    "keepInlineInBlogger": [
+      "Blogger data expressions",
+      "Consent bootstrap",
+      "Page-specific data adapters",
+      "Critical theme initialization"
+    ],
+    "candidateForCdn": [
+      "Static JavaScript utilities",
+      "Interactive feature runtime",
+      "Non-critical CSS",
+      "Reusable assets"
+    ],
+    "scriptLoading": "defer",
+    "asyncLoading": false
+  }
+}
