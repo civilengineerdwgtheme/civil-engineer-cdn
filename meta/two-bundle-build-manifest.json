@@ -1,15 +1,20 @@
 {
-    "status":  "two-bundle-candidate",
-    "template":  "civil-engineer-dwg-fix-cdn-two-bundle-aggressive-v2.xml",
+    "status":  "two-bundle-candidate-hero-v3",
+    "template":  "civil-engineer-dwg-fix-cdn-two-bundle-hero-fixed-v3.xml",
     "cdn":  {
                 "css":  "dist/css/civil-engineer-complete.min.css",
                 "javascript":  "dist/js/bundle/civil-engineer.min.js",
-                "placement":  "immediately before closing body"
+                "placement":  "CSS in head; JavaScript immediately before closing body"
             },
     "sizes":  {
                   "templateBytes":  319248,
                   "cssBytes":  373102,
-                  "javascriptBytes":  111777
+                  "javascriptBytes":  111733
               },
-    "caveat":  "Blogger defaultmarkups remain inline; under-200KB target is not yet achieved."
+    "changes":  [
+                    "Moved the CSS CDN link into head to prevent first-render flash and broken layout.",
+                    "Hero empty guard no longer hides #badan-halaman while Blogger widget content is pending.",
+                    "JavaScript remains at the end of body."
+                ],
+    "caveat":  "Blogger defaultmarkups remain inline; under-200KB target is not yet achieved. Production CDN files must be uploaded before testing."
 }
