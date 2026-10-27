@@ -2,11 +2,20 @@
   <style>/* palet warna: ubah 4 nilai ini saja (tema terang) */:root{--ink:#0b2a5b;--accent:#f26b21;--soft:#f9b894;--paper:transparent}[fill="#0b2a5b"]{fill:var(--ink)}[stroke="#0b2a5b"]{stroke:var(--ink)}[fill="#f26b21"]{fill:var(--accent)}[stroke="#f26b21"]{stroke:var(--accent)}[fill="#f9b894"]{fill:var(--soft)}[fill="#fff"]{fill:var(--paper)}</style>
   <title id="logo-title">TITOREISTA - Civil Engineering &amp; Construction</title>
   <desc id="logo-desc">Logo TITOREISTA: monogram TR bergaya gambar teknik dengan jembatan rangka, teks TITOREISTA, dan tagline Civil Engineering &amp; Construction.</desc>
+  <defs>
+    <clipPath id="clip-t-dash-ends" clipPathUnits="userSpaceOnUse"><rect x="277" y="102" width="8" height="418" /></clipPath>
+    <clipPath id="clip-midline-dash-ends" clipPathUnits="userSpaceOnUse"><rect x="52" y="378.5" width="828" height="8" /></clipPath>
+    <style>#tagline-outline path[d^="M2275.5 570.063"]{fill:var(--accent);stroke:var(--accent)}</style>
+  </defs>
   <g id="Product_name" data-name="Product name">
     <g fill="none" stroke="#f26b21" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
       <path d="M84 37h486m-465.2 7.1L84 37l20.8-7.1m444.4 14.2L570 37l-20.8-7.1M84 0v47M570 0v47M44 77v106m-7.1-85.2L44 77l7.1 20.8m-14.2 64.4L44 183l7.1-20.8M24 77h44M24 183h44M19 329v107m-7.2-86.2L19 329l7.1 20.8m-14.3 65.4L19 436l7.1-20.8M0 329h40M0 436h40m873-107v216m-7.1-195.2L913 329l7.1 20.8m-14.2 174.4L913 545l7.1-20.8M890 329h42M810 545h122m-707 35h115m-94.2 7.1L225 580l20.8-7.1m73.4 14.2L340 580l-20.8-7.1M381 580h109m-88.2 7.1L381 580l20.8-7.1m67.4 14.2L490 580l-20.8-7.1M225 620h493m-472.2 7.1L225 620l20.8-7.1m451.4 14.2L718 620l-20.8-7.1M225 560v77m115-77v38m41-38v38m109-38v38m228-40v79M185 416v129m-7.2-108.2L185 416l7.2 20.8m-14.4 87.4L185 545l7.2-20.8M158 545h52m336.6-80.6 86.3 108.5M566 477.1l-19.4-12.7 7.9 21.8m70.4 64.9 8 21.8-19.4-12.7m-73.2-90.8 36-28.7m50.3 137.2 36-28.7M570 37a221 221 0 0 1 165.9 367M745 65 478 335" />
       <path stroke-width="8" d="M185 411h195" />
-      <path stroke-dasharray="42 9 6 9" stroke-linecap="butt" d="M281 62v498m-16-429h292a134.5 125.75 0 1 1 0 251.5m41-5.5 113 142M38 382.5h852" />
+      <path stroke-dasharray="42 9 6 9" stroke-linecap="butt" clip-path="url(#clip-t-dash-ends)" d="M281 62v498" />
+      <path stroke-dasharray="42 9 6 9" stroke-linecap="butt" d="M108 131h449a134.5 125.75 0 1 1 0 251.5" />
+      <path stroke-dasharray="42 9 6 9" stroke-linecap="butt" d="M598 377l113 142" />
+      <path stroke-dasharray="42 9 6 9" stroke-linecap="butt" clip-path="url(#clip-midline-dash-ends)" d="M38 382.5h852" />
+      <path stroke-dasharray="42 9 6 9" stroke-linecap="butt" d="M436 411.5v108.5" />
     </g>
     <g id="wordmark-outline" data-name="wordmark-outline" stroke="#0b2a5b" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill">
       <path d="M1196.134 131.866L1119.247 131.866L1119.247 352L1058.339 352L1058.339 131.866L981.828 131.866L981.828 82.425L1196.134 82.425Z" fill="#0b2a5b" />
